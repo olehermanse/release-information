@@ -4,7 +4,6 @@ Repository for release information for CFEngine, such as version numbers, checks
 
 ## Update release information after a new version has been released
 
-```
-$ cd masterfiles
-$ cfbs generate-release-information
+```bash
+cfengine dev generate-release-information
 ```
