@@ -3435,6 +3435,7 @@
       "cached": false,
       "category": "data",
       "collecting": false,
+      "minArgs": 0,
       "parameters": [],
       "returnType": "context",
       "status": "normal",
@@ -3444,6 +3445,8 @@
       "cached": false,
       "category": "data",
       "collecting": false,
+      "maxArgs": 2,
+      "minArgs": 1,
       "parameters": [
         {
           "description": "File path",
@@ -3464,6 +3467,7 @@
       "cached": false,
       "category": "data",
       "collecting": false,
+      "minArgs": 1,
       "parameters": [
         {
           "description": "Regular expression",
@@ -3657,6 +3661,7 @@
       "cached": false,
       "category": "utils",
       "collecting": false,
+      "minArgs": 1,
       "parameters": [],
       "returnType": "slist",
       "status": "normal",
@@ -3666,6 +3671,8 @@
       "cached": false,
       "category": "io",
       "collecting": false,
+      "maxArgs": 4,
+      "minArgs": 3,
       "parameters": [
         {
           "description": "File name",
@@ -3696,6 +3703,8 @@
       "cached": false,
       "category": "io",
       "collecting": true,
+      "maxArgs": 3,
+      "minArgs": 2,
       "parameters": [
         {
           "description": "CFEngine variable identifier or inline JSON",
@@ -3736,6 +3745,7 @@
       "cached": false,
       "category": "utils",
       "collecting": false,
+      "minArgs": 1,
       "parameters": [],
       "returnType": "context",
       "status": "normal",
@@ -3745,6 +3755,7 @@
       "cached": false,
       "category": "data",
       "collecting": false,
+      "minArgs": 0,
       "parameters": [],
       "returnType": "string",
       "status": "normal",
@@ -3754,6 +3765,7 @@
       "cached": false,
       "category": "utils",
       "collecting": false,
+      "minArgs": 1,
       "parameters": [],
       "returnType": "int",
       "status": "normal",
@@ -3971,6 +3983,8 @@
       "cached": false,
       "category": "data",
       "collecting": false,
+      "maxArgs": 3,
+      "minArgs": 1,
       "parameters": [
         {
           "description": "Input string",
@@ -4016,6 +4030,8 @@
       "cached": true,
       "category": "utils",
       "collecting": false,
+      "maxArgs": 3,
+      "minArgs": 2,
       "parameters": [
         {
           "description": "Fully qualified command path",
@@ -4041,6 +4057,8 @@
       "cached": true,
       "category": "utils",
       "collecting": false,
+      "maxArgs": 3,
+      "minArgs": 2,
       "parameters": [
         {
           "description": "Fully qualified command path",
@@ -4206,6 +4224,7 @@
       "cached": false,
       "category": "files",
       "collecting": false,
+      "minArgs": 1,
       "parameters": [],
       "returnType": "slist",
       "status": "normal",
@@ -4215,6 +4234,8 @@
       "cached": false,
       "category": "files",
       "collecting": false,
+      "maxArgs": 3,
+      "minArgs": 2,
       "parameters": [
         {
           "description": "Path to search from",
@@ -4264,7 +4285,7 @@
       ],
       "returnType": "data",
       "status": "normal",
-      "variadic": true
+      "variadic": false
     },
     "findprocesses": {
       "cached": true,
@@ -4285,6 +4306,7 @@
       "cached": false,
       "category": "data",
       "collecting": false,
+      "minArgs": 1,
       "parameters": [
         {
           "description": "CFEngine format string",
@@ -4320,6 +4342,7 @@
       "cached": false,
       "category": "utils",
       "collecting": false,
+      "minArgs": 1,
       "parameters": [
         {
           "description": "Variable identifier",
@@ -4335,6 +4358,7 @@
       "cached": false,
       "category": "utils",
       "collecting": false,
+      "minArgs": 1,
       "parameters": [
         {
           "description": "Class identifier",
@@ -4415,6 +4439,8 @@
       "cached": false,
       "category": "system",
       "collecting": false,
+      "maxArgs": 1,
+      "minArgs": 0,
       "parameters": [
         {
           "description": "Group name or group ID as string",
@@ -4430,6 +4456,8 @@
       "cached": false,
       "category": "system",
       "collecting": false,
+      "maxArgs": 2,
+      "minArgs": 0,
       "parameters": [
         {
           "description": "Comma separated list of Group names",
@@ -4480,6 +4508,8 @@
       "cached": false,
       "category": "system",
       "collecting": false,
+      "maxArgs": 1,
+      "minArgs": 0,
       "parameters": [
         {
           "description": "User name in text",
@@ -4495,6 +4525,8 @@
       "cached": false,
       "category": "system",
       "collecting": false,
+      "maxArgs": 2,
+      "minArgs": 0,
       "parameters": [
         {
           "description": "Comma separated list of User names",
@@ -4530,6 +4562,7 @@
       "cached": false,
       "category": "utils",
       "collecting": false,
+      "minArgs": 1,
       "parameters": [
         {
           "description": "Variable identifier",
@@ -4780,6 +4813,7 @@
       "cached": false,
       "category": "data",
       "collecting": false,
+      "minArgs": 1,
       "parameters": [],
       "returnType": "string",
       "status": "normal",
@@ -4839,6 +4873,7 @@
       "cached": false,
       "category": "communication",
       "collecting": false,
+      "minArgs": 1,
       "parameters": [
         {
           "description": "IP address range syntax",
@@ -4888,12 +4923,14 @@
       ],
       "returnType": "string",
       "status": "normal",
-      "variadic": true
+      "variadic": false
     },
     "isconnectable": {
       "cached": false,
       "category": "communication",
       "collecting": false,
+      "maxArgs": 3,
+      "minArgs": 2,
       "parameters": [
         {
           "description": "Host name, domain name or IP address",
@@ -4969,6 +5006,7 @@
       "cached": false,
       "category": "communication",
       "collecting": false,
+      "minArgs": 1,
       "parameters": [
         {
           "description": "IP address range syntax",
@@ -5074,6 +5112,8 @@
       "cached": false,
       "category": "files",
       "collecting": false,
+      "maxArgs": 2,
+      "minArgs": 1,
       "parameters": [
         {
           "description": "Path to file",
@@ -5469,6 +5509,7 @@
       "cached": false,
       "category": "data",
       "collecting": true,
+      "minArgs": 1,
       "parameters": [],
       "returnType": "data",
       "status": "normal",
@@ -5611,6 +5652,7 @@
       "cached": false,
       "category": "data",
       "collecting": false,
+      "minArgs": 0,
       "parameters": [],
       "returnType": "context",
       "status": "normal",
@@ -6010,6 +6052,8 @@
       "cached": false,
       "category": "io",
       "collecting": false,
+      "maxArgs": 2,
+      "minArgs": 1,
       "parameters": [
         {
           "description": "File name",
@@ -6050,6 +6094,8 @@
       "cached": false,
       "category": "io",
       "collecting": false,
+      "maxArgs": 2,
+      "minArgs": 1,
       "parameters": [
         {
           "description": "File name",
@@ -6070,6 +6116,8 @@
       "cached": false,
       "category": "io",
       "collecting": false,
+      "maxArgs": 2,
+      "minArgs": 1,
       "parameters": [
         {
           "description": "File name",
@@ -6165,6 +6213,8 @@
       "cached": false,
       "category": "io",
       "collecting": false,
+      "maxArgs": 2,
+      "minArgs": 1,
       "parameters": [
         {
           "description": "File name",
@@ -6405,6 +6455,8 @@
       "cached": false,
       "category": "io",
       "collecting": false,
+      "maxArgs": 2,
+      "minArgs": 1,
       "parameters": [
         {
           "description": "File name",
@@ -6735,6 +6787,8 @@
       "cached": false,
       "category": "files",
       "collecting": false,
+      "maxArgs": 3,
+      "minArgs": 2,
       "parameters": [
         {
           "description": "Path to search from",
@@ -6840,6 +6894,8 @@
       "cached": false,
       "category": "data",
       "collecting": true,
+      "maxArgs": 2,
+      "minArgs": 1,
       "parameters": [
         {
           "description": "CFEngine variable identifier or inline JSON",
@@ -7030,6 +7086,8 @@
       "cached": false,
       "category": "data",
       "collecting": true,
+      "maxArgs": 2,
+      "minArgs": 1,
       "parameters": [],
       "returnType": "string",
       "status": "normal",
@@ -7224,6 +7282,8 @@
       "cached": false,
       "category": "data",
       "collecting": false,
+      "maxArgs": 2,
+      "minArgs": 1,
       "parameters": [
         {
           "description": "Variable identifier",
@@ -7334,6 +7394,8 @@
       "cached": false,
       "category": "data",
       "collecting": false,
+      "maxArgs": 3,
+      "minArgs": 2,
       "parameters": [
         {
           "description": "String to validate as JSON",
@@ -7359,6 +7421,8 @@
       "cached": false,
       "category": "data",
       "collecting": false,
+      "maxArgs": 2,
+      "minArgs": 1,
       "parameters": [
         {
           "description": "String to validate as JSON",
@@ -7379,6 +7443,7 @@
       "cached": false,
       "category": "data",
       "collecting": false,
+      "minArgs": 1,
       "parameters": [],
       "returnType": "slist",
       "status": "normal",
@@ -7388,6 +7453,7 @@
       "cached": false,
       "category": "data",
       "collecting": false,
+      "minArgs": 1,
       "parameters": [],
       "returnType": "data",
       "status": "normal",
