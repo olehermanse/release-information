@@ -75,7 +75,7 @@
             "URL": "https://cfengine-package-repos.s3.amazonaws.com/release-data/community/master.json",
             "debug": true,
             "release_date": "nightly",
-            "source_sha": "57568a41c5309cee5417b8f64708bc11ded05a07b4532ac6aeb1abc0dbbfec59",
+            "source_sha": "cc91369f18d430616862b8c2a1dc04c02e4499303cfb0f965bb382b137a2281c",
             "lts_branch": "nightly-master",
             "alpha": true
         },
@@ -84,8 +84,20 @@
             "URL": "https://cfengine-package-repos.s3.amazonaws.com/release-data/community/3.27.x.json",
             "debug": true,
             "release_date": "nightly",
-            "source_sha": "e2cd4291bb44da171a4849319aa104ef8d1c4a09e15e3384456908d8c55e4535",
+            "source_sha": "a3dba2abc3cbe58ad8c95f281c019761868703688e670fbb3c09e05b1545a641",
             "lts_branch": "nightly-3.27.x"
+        },
+        {
+            "version": "3.27.1",
+            "URL": "https://cfengine-package-repos.s3.amazonaws.com/release-data/community/3.27.1.json",
+            "debug": false,
+            "release_date": "2026-05-08",
+            "source_sha": "878e52c4a6cc3bd28048b527a920fba86ce4cd99c5760adc42417a811efa6e6b",
+            "lts_branch": "3.27.x",
+            "latest": true,
+            "latest_stable": true,
+            "latest_on_branch": true,
+            "latestLTS": true
         },
         {
             "lts_branch": "3.27.x",
@@ -93,11 +105,7 @@
             "release_date": "2026-01-12",
             "version": "3.27.0",
             "source_sha": "db1e0c39d8098965bb773bb67e5529ecfd8c831e6bb3f580d7f04c40f2872730",
-            "debug": false,
-            "latest": true,
-            "latest_stable": true,
-            "latest_on_branch": true,
-            "latestLTS": true
+            "debug": false
         },
         {
             "URL": "https://cfengine-package-repos.s3.amazonaws.com/release-data/community/3.26.0.json",
@@ -118,8 +126,17 @@
             "URL": "https://cfengine-package-repos.s3.amazonaws.com/release-data/community/3.24.x.json",
             "debug": true,
             "release_date": "nightly",
-            "source_sha": "3064d9922232ed295ecc51ca538114910d9c5902c38695c8f115d542f619bd9e",
+            "source_sha": "5e536d71cbd5c8cdf7939d6556bd680d0746d27bf582c284fde5ef2151ccfbbc",
             "lts_branch": "nightly-3.24.x"
+        },
+        {
+            "version": "3.24.4",
+            "URL": "https://cfengine-package-repos.s3.amazonaws.com/release-data/community/3.24.4.json",
+            "debug": false,
+            "release_date": "2026-05-08",
+            "source_sha": "8b71578c07d21d4bbb7591c182f696d5f5501265443dadb4df82519bb8ea78e3",
+            "lts_branch": "3.24.x",
+            "latest_on_branch": true
         },
         {
             "lts_branch": "3.24.x",
@@ -127,8 +144,7 @@
             "release_date": "2025-12-12",
             "version": "3.24.3",
             "source_sha": "cba848da96290c33e055751ce67a185b475a9922c9d96496c056691a7612d27f",
-            "debug": false,
-            "latest_on_branch": true
+            "debug": false
         },
         {
             "lts_branch": "3.24.x",
